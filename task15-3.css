@@ -1,0 +1,138 @@
+.career {
+    border-bottom: 0.3rem solid #fff;
+}
+.big img {
+    position: relative;
+    top :50%;
+    margin-top: -1.5rem;
+}
+main {
+    background: #fafafa;
+}
+.tag {
+    font-size:1rem;
+    margin: 0 15%;
+    padding: 2rem 0;
+    background: #fafafa;
+    border-bottom: 0.1rem solid #9a9a9a;
+}
+.tag span {
+    color: #29b078;
+}
+.option {
+    padding: 0 15%;
+}
+dl {
+    padding: 1rem 0;
+    margin: 0;
+    font-size: 1rem;
+    border-bottom: 0.1rem solid #9a9a9a;
+}
+dt {
+    display: inline;
+}
+dd {
+    display: inline-block;
+}
+.select {
+    background: #29b078;
+}
+dd:hover {
+    background: #29b078;
+}
+article {
+    padding: 0 15%;
+}
+article h5 {
+    margin: 0;
+    padding: 2rem 0;
+    border-bottom: 0.1rem solid #9a9a9a;
+}
+.msg {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+@media all and (min-width:768px) and (max-width: 1024px){
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .msg {
+        width: 48%;
+    }
+}
+@media all and (min-width:1024px){
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .msg {
+        box-sizing: border-box;
+        width: 33%;
+        padding: 1rem;
+    }
+}
+table {
+    padding: 0 2rem;
+    border-collapse: collapse;
+}
+.td1 {
+    padding: 0.5rem;
+    border-right: 0;
+}
+.td10 {
+    width: 5%;
+    border: 0;
+}
+.td2 {
+    border-left: 0;
+}
+.td2 p {
+    font-size: 0.8rem;
+}
+.name {
+    font-weight: 700;
+}
+.td3 span {
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+}
+.td4 span {
+    font-size: 0.8rem;
+    margin-left: 0.2rem;
+}
+strong {
+    color: red;
+}
+.td5 {
+    font-size: 0.8rem;
+    text-align: center;
+}
+.td6 {
+    font-size: 0.8rem;
+}
+.td6 table {
+    width: 100%;
+}
+.td6 td {
+    padding: 0.2rem;
+    border-bottom: 0.1rem solid #9a9a9a;
+}
+.year {
+    float:left;
+}
+.salary {
+    float: right;
+}
+.td7 {
+    padding: 0.5rem 0.2rem;
+    font-size: 0.8rem;
+}
+.td8 {
+    padding: 0.5rem 0.2rem;
+    font-size: 0.8rem;
+}
+

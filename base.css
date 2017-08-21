@@ -1,0 +1,18 @@
+.l{float:left;}
+.r{float:right;}
+.pf{position: fixed;}
+.pa{position: absolute;}
+.pr{position: relative;}
+.db{display: block;}
+.di{display: inline;}
+.dib{display: inline-block;}
+.df{display: flex;display: -webkit-flex;}
+.tac{text-align: center;}
+.bsb{box-sizing: border-box;}
+.lsn{list-style: none;}
+.ttx{transform: translateX(-50%);}
+.lh5{line-height: 5rem;}
+.lh6{line-height: 6rem;}
+.w100{width: 100%;}
+.w80{width: 80%;}
+.w70{width: 70%;}

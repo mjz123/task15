@@ -1,0 +1,252 @@
+.homepage {
+    border-bottom: 0.3rem solid #fff;
+}
+.carou {
+    overflow: hidden;
+    width:100vw;
+}
+.carou input {
+    display: none;
+}
+.carou label {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: #f0f0f0;
+}
+label:hover {
+    background: #29b078;
+}
+input:checked + label {
+    background: #29b078;
+}
+.slider {
+    width: 400vw;
+    padding: 0;
+    margin: 0;
+    animation: mymove1 10s infinite;
+    -webkit-animation:mymove1 10s infinite;
+}
+.slider li {
+    float: left;
+}
+
+.slider img {
+    width:100vw;
+}
+.cir {
+    top: 90%;
+    left: 50%;
+}
+@keyframes mymove1 {
+    0% {margin-left: 0;}
+    12% {margin-left: 0;}
+    25% {margin-left: -100vw;}
+    37% {margin-left: -100vw;}
+    50% {margin-left: -200vw;}
+    63% {margin-left: -200vw;}
+    75% {margin-left: -300vw;}
+    100% {margin-left: 0;}
+    100% {margin-left: 0;}
+}
+@-webkit-keyframes mymove1 {
+    0% {margin-left: 0;}
+    12% {margin-left: 0;}
+    25% {margin-left: -100vw;}
+    50% {margin-left: -200vw;}
+    75% {margin-left: -300vw;}
+    100% {margin-left: 0;}
+}
+@keyframes mymove2 {
+    0% {margin-left: -100vw;}
+    12% {margin-left: -100vw;}
+    25% {margin-left: -200vw;}
+    50% {margin-left: -300vw;}
+    75% {margin-left: 0;}
+    100% {margin-left: -100vw;}
+}
+@keyframes mymove3 {
+    0% {margin-left: -200vw;}
+    12% {margin-left: -200vw;}
+    25% {margin-left: -300vw;}
+    50% {margin-left: 0;}
+    75% {margin-left: -100vw;}
+    100% {margin-left: -200vw;}
+}
+@keyframes mymove4 {
+    0% {margin-left: -300vw;}
+    12% {margin-left: -300vw;}
+    25% {margin-left: 0;}
+    50% {margin-left: -100vw;}
+    75% {margin-left: -200vw;}
+    100% {margin-left: -300vw;}
+}
+#ct2:checked ~ ul{
+    animation-name:mymove2;
+}
+#ct3:checked ~ ul{
+    animation-name:mymove3;
+}
+#ct4:checked ~ ul{
+    animation-name:mymove4;
+}
+.feature {
+    background: #fafafa;
+    padding: 2rem 0;
+}
+.first {
+    margin: 5rem 0;
+}
+.box1 {
+    text-align: center;
+}
+.box1 img{
+    height: 2.7rem;
+}
+.box1 p {
+    margin: 1rem 0;
+}
+.top1 {
+    font-size: 0.9rem;
+}
+.top2 {
+    font-size: 0.8rem;
+    color: #9a9a9a;
+}
+.guide {
+    background: #fafafa;
+}
+.guide h5{
+    margin-top: 0;
+}
+.box2 {
+    border-left: 0.1rem dashed #9a9a9a;
+    text-align: center;
+    font-size: 0.9rem;
+}
+@media all and (max-width:768px){
+    .box1 {
+        padding-bottom: 3rem;
+    }
+    .box2 {
+        border: 0;
+    }
+}
+.msg {
+    margin: 2rem auto;
+}
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: #9a9a9a;
+    padding-top: 2rem;
+}
+.circle {
+    flex: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid #f6f6f6;
+    text-align: center;
+    line-height: 3.5rem;
+    color: #29b078;
+    margin-right: 1rem;
+    background: #FFFFFF;
+}
+.box3 img{
+    margin: 0 1rem;
+}
+@media all and (min-width: 768px) {
+    .feature {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box1,.box2{
+        width: 25%;
+    }
+    .top,.bottom {
+        display: flex;
+    }
+    .mcont {
+        display: flex;
+    }
+    .box4 {
+        width: 25%;
+    }
+}
+.member {
+    background: #fafafa;
+    padding: 0 15%;
+}
+.member > h5{
+    margin: 5rem auto 3rem;
+}
+.box4 {
+    padding: 2rem;
+    border: 0.1rem solid #f6f6f6;
+    background: #FFFFFF;
+}
+.box4 img{
+    width:5.5rem;
+}
+.box4 p {
+    font-size: 0.8rem;
+    color: #9a9a9a;
+}
+.member ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.member li {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 0.1rem solid #9a9a9a;
+    background: #fff;
+}
+.member li:hover{
+    background: #9a9a9a;
+}
+.partner {
+    padding: 4rem 0;
+    background: #fafafa;
+}
+.box5 {
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box6 {
+    width: 12rem;
+    line-height: 9rem;
+    background: #FFFFFF;
+    text-align: center;
+    border: 0.1rem solid #9a9a9a;
+}
+.box11 {
+    padding: 0;
+}
+.friendlink {
+    margin: 2rem 0;
+}
+.friendlink h5{
+    text-align: center;
+}
+.friendlink ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15%;
+    padding: 0;
+}
+.friendlink li {
+    margin-left: 2rem;
+    font-size: 0.7rem;
+    color: #9a9a9a;
+}
+
+

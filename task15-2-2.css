@@ -1,0 +1,78 @@
+.recommend {
+  border-bottom: 0.3rem solid #fff; }
+
+.poster {
+  height: 12rem;
+  background-image: url(img/task8-2-1.png);
+  background-size: cover;
+  background-position: center; }
+
+.tag {
+  font-size: 1rem;
+  padding: 2rem 15%;
+  background: #fafafa; }
+  .tag span {
+    color: #29b078; }
+
+main {
+  background: #fafafa;
+  padding: 0 15% 3rem; }
+  main .sidebar {
+    border: 0.1rem solid #f6f6f6;
+    background: #fff; }
+    main .sidebar h6 {
+      padding: 2rem 0;
+      margin: 0;
+      border-bottom: 0.1rem solid #f6f6f6; }
+    main .sidebar ul {
+      margin: 0;
+      padding-left: 46%;
+      list-style-type: circle;
+      font-size: 1rem; }
+      main .sidebar ul li {
+        color: #ff640c; }
+        main .sidebar ul li .text1 {
+          list-style-type: disc;
+          color: #ff640c; }
+        main .sidebar ul li p {
+          color: #29b078; }
+
+@media all and (max-width: 768px) {
+  .sidebar {
+    margin-bottom: 3rem; }
+
+  .poster {
+    height: 15vw; } }
+.article {
+  border: 0.1rem solid #f6f6f6;
+  background: #fff; }
+  .article .msg1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 0.1rem solid #9a9a9a;
+    font-size: 1rem;
+    color: #9a9a9a; }
+  .article .msg2 {
+    padding-bottom: 5rem;
+    font-size: 1rem;
+    color: #9a9a9a;
+    text-indent: 2rem; }
+
+@media all and (min-width: 768px) {
+  main {
+    float: left; }
+
+  .sidebar {
+    float: left;
+    width: 25%; }
+
+  .sidebar ul {
+    padding-left: 43%; }
+
+  .article {
+    float: right;
+    width: 70%; } }
+
+/*# sourceMappingURL=task15-2-2.css.map */
